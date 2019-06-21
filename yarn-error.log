@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-image-picker
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Roaming\Composer\vendor\bin;C:\Users\user\AppData\Local\Android\Sdk\platform-tools;C:\Users\user\AppData\Local\Yarn\bin;C:\Users\user\AppData\Roaming\npm
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/axios: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+      at ClientRequest.onError (C:\Program Files (x86)\Yarn\lib\cli.js:141027:17)
+      at Object.onceWrapper (events.js:277:13)
+      at ClientRequest.emit (events.js:189:13)
+      at Socket.socketErrorListener (_http_client.js:392:9)
+      at Socket.emit (events.js:189:13)
+      at emitErrorNT (internal/streams/destroy.js:82:8)
+      at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "AppProject",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "start": "node node_modules/react-native/local-cli/cli.js start",
+      "test": "jest"
+    },
+    "dependencies": {
+      "axios": "^0.18.0",
+      "react": "16.8.3",
+      "react-native": "0.59.8",
+      "react-native-elements": "^1.1.0",
+      "react-native-gesture-handler": "^1.2.1",
+      "react-native-vector-icons": "^6.4.2",
+      "react-navigation": "^3.10.2"
+    },
+    "devDependencies": {
+      "@babel/core": "7.4.4",
+      "@babel/runtime": "7.4.4",
+      "babel-jest": "24.8.0",
+      "jest": "24.8.0",
+      "metro-react-native-babel-preset": "0.54.1",
+      "react-test-renderer": "16.8.3"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
